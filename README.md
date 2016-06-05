@@ -82,7 +82,7 @@ Es concepto no es mas que el ambito el cual ***gobierna*** y existe la aplicacio
 
 Antes de nada, por favor clonar el repo actual para tener los ejemplos y trabajar en base a los mismos, despues de clonar y entrar al directorio clonado, continua el proceso.
 
-Existen multiples maneras de instalar Angular, la forma mas simple simple, pero obsoleta, es descarga su js minificado, como en cualquier otra libreria, y llamarlo en en un tag <script>, en el header de tu html. puedes descargarlo del a siguiente url:
+Existen multiples maneras de instalar Angular, la forma mas simple simple, pero obsoleta, es descarga su js minificado, como en cualquier otra libreria, y llamarlo en en un tag script, en el header de tu html. puedes descargarlo del a siguiente url:
 
 https://angularjs.org/
 
@@ -92,7 +92,7 @@ La manera mas moderna, es intalarlo con npm, aprovechando las nuevas tecnologias
 npm install angular@1.5.6
 ```
 
-con esto, tendremos una copia local de angular en el directorio ***node_modules***, ya podemos usar el tag ***<script>*** para llamar a angular desde su version local minificada que puedes encontrar dentro de node_modules.
+con esto, tendremos una copia local de angular en el directorio ***node_modules***, ya podemos usar el tag script para llamar a angular desde su version local minificada que puedes encontrar dentro de node_modules.
 
 ## Defnir el App de Angular
 
@@ -122,7 +122,7 @@ app.controller("calendarCtrl", function($scopet){
 
 NOTA: Usaremos el archivo index.html para llevar adelante el ejemplo.
 
-Ya tenemos nuestra app y primer controlador, ahora, debemos llamar a ambos archivos js en nuestro proyecto por medio de tag <script> despues de haber llamado a angular js quedando similar a:
+Ya tenemos nuestra app y primer controlador, ahora, debemos llamar a ambos archivos js en nuestro proyecto por medio de tag script despues de haber llamado a angular js quedando similar a:
 
 ```
 <script type="text/javascript" src="angular.js"></script>
