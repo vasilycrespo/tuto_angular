@@ -45,8 +45,8 @@ Sin embargo los elementos cubiertos son los necesarios para poder realizar un de
     * lowercase
     * uppercase
     * currency
-- Filtros personalizados
 - ***Proyecto 1***
+- Filtros personalizados
 - Servicios personalizados
 - Directivas personalizadas
 - Creando un SPA (Single page applications)

@@ -1,3 +1,92 @@
+body {
+	background-color: #FBFBFB;
+}
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 .container {
 	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.container h2 {
+	margin-left: 5%;
+	color: #6F6F73;
+}
+
+.list {
+	margin-top: 20px;
+	position: relative;
+	width: 90%;
+	left: 5%;
+	background-color: white;
+	border: solid 1px #ccc;
+	border-radius: 7px;
+	min-height: 220px;
+	height: auto;
+	margin-top: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.list .item {
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	height: auto;
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	display: table;
+	margin-bottom: 10px;
+}
+
+.info{
+vertical-align: top;
+    display: inline-block;
+}
+
+.item_btn{
+	background-color: #FB4040;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    min-width: 100px;
+    height: 36px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+}
+
+.form {
+	margin-top: 20px;
+	position: relative;
+	width: 90%;
+	left: 5%;
+	background-color: white;
+	border: solid 1px #ccc;
+	border-radius: 7px;
+	min-height: 220px;
+	height: auto;
+	margin-top: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.no_items{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.claseM{
+    border-color: #6868E2 !important;
+    background-color: #EAEAFF !important;
+}
+
+.claseF{
+	border-color: #BB21BD !important;
+    background-color: #DCC4D0 !important;
 }
